@@ -2,7 +2,7 @@
 
 ## Overview
 
-The DeepRacer Navigation ROS package creates the *deepracer_navigation_node* which is part of the core AWS DeepRacer application and will be launched from the deepracer_launcher. More details about the application and the components can be found [here](https://github.com/aws-racer/aws-deepracer-launcher).
+The DeepRacer Navigation ROS package creates the *deepracer_navigation_node* which is part of the core AWS DeepRacer application and will be launched from the deepracer_launcher. More details about the application and the components can be found [here](https://github.com/awsdeepracer/aws-deepracer-launcher).
 
 This node is responsible for collecting the reinforcement learning model inference results and mapping it to the servo message with throttle and steering angle values based on the action space for the particular model selected.
 
@@ -14,7 +14,7 @@ The source code is released under Apache 2.0 (https://aws.amazon.com/apache-2-0/
 
 ### Prerequisites
 
-The DeepRacer device comes with all the pre-requisite packages and libraries installed to run the deepracer_navigation_pkg. More details about pre installed set of packages and libraries on the DeepRacer, and installing required build systems can be found in the [Getting Started](https://github.com/aws-racer/aws-deepracer-launcher/blob/main/getting-started.md) section of the AWS DeepRacer Opensource page.
+The DeepRacer device comes with all the pre-requisite packages and libraries installed to run the deepracer_navigation_pkg. More details about pre installed set of packages and libraries on the DeepRacer, and installing required build systems can be found in the [Getting Started](https://github.com/awsdeepracer/aws-deepracer-launcher/blob/main/getting-started.md) section of the AWS DeepRacer Opensource page.
 
 The deepracer_navigation_pkg specifically depends on the following ROS2 packages as build and execute dependencies:
 
@@ -35,7 +35,7 @@ Open up a terminal on the DeepRacer device and run the following commands as roo
 
 1. Clone the deepracer_navigation_pkg on the DeepRacer device:
 
-        git clone https://github.com/aws-racer/aws-deepracer-navigation-pkg.git
+        git clone https://github.com/awsdeepracer/aws-deepracer-navigation-pkg.git
 
 1. Fetch unreleased dependencies:
 
