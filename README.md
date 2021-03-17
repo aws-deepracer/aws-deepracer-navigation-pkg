@@ -110,3 +110,8 @@ The deepracer_navigation_pkg_launch.py is also included in this package that giv
 | ---------- | ------------ | ----------- |
 |action_space_service|LoadModelSrv|A service that is called when a new model is loaded and helps set the action space to be considered while mapping the inference results.|
 |throttle_service|NavThrottleSrv|A service that is called to dynamically set the scale value to multiply to the throttle in autonomous mode for each action.|
+
+## Resources
+
+* AWS DeepRacer Opensource getting started: [https://github.com/awsdeepracer/aws-deepracer-launcher/blob/main/getting-started.md](https://github.com/awsdeepracer/aws-deepracer-launcher/blob/main/getting-started.md)
+
