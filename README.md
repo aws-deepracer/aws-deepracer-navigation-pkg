@@ -82,7 +82,7 @@ To launch the built `deepracer_navigation_node` as the root user on the AWS Deep
 
 ## Launch files
 
-The `deepracer_navigation_pkg_launch.py`, included in this package, gives an example of how to launch the `deepracer_navigation_node`.
+The `deepracer_navigation_pkg_launch.py`, included in this package, provides an example demonstrating how to launch the `deepracer_navigation_node`.
 
     from launch import LaunchDescription
     from launch_ros.actions import Node
